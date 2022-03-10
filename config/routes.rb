@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  get "/actors-page" => "actors#list_by_id"
+  get "/all-actors" => "actors#list_all"
 end
