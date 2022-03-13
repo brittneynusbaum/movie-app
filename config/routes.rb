@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   get "/actors-page" => "actors#list_by_id"
   get "/all-actors" => "actors#list_all"
+  get "/movies" => "movies#index"
+  get "/movies/:id" => "movies#show"
 end
