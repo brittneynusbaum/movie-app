@@ -16,12 +16,12 @@ content-type: application/json
 }
 
 ### update
-PATCH http://localhost:3000/actors/4
+PATCH http://localhost:3000/actors/15
 content-type: application/json
 
 {
-  "director": "George Lucas",
-  "english": true
+  "gender": "Male",
+  "age": 45
 }
 
 ### destroy
