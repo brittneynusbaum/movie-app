@@ -9,11 +9,11 @@ POST http://localhost:3000/actors
 content-type: application/json
 
 {
-  "first_name": "Carrie",
-  "last_name": "Fisher",
-  "known_for": "Leia",
-  "gender": "Female",
-  "age": "60"
+  "first_name": "Ewan",
+  "last_name": "McGregor",
+  "known_for": "Obi-Wan Kenobi",
+  "gender": "Male",
+  "age": "50"
 }
 
 ### update
@@ -21,8 +21,11 @@ PATCH http://localhost:3000/actors/15
 content-type: application/json
 
 {
+  "first_name": "Hayden",
+  "last_name": "Christensen",
+  "known_for": "Anakin Skywalker",
   "gender": "Male",
-  "age": 45
+  "age": "40"
 }
 
 ### destroy
