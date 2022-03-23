@@ -1,4 +1,5 @@
 class Movie < ApplicationRecord
+  has_many :actors
   validates :title, presence: true
   validates :title, length: { minimum: 2 }
   validates :year, length: { in: 4.. 4 }

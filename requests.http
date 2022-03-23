@@ -31,8 +31,6 @@ content-type: application/json
 ### destroy
 DELETE http://localhost:3000/actors/6
 
-## ************************************************* ##
-
 ### index
 GET http://localhost:3000/movies
 
